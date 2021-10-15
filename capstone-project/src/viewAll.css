@@ -13,4 +13,8 @@
 #game-name {
     color: white;
     background-color: black;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
