@@ -170,16 +170,16 @@ addNewGame(newGame){
               <input class="app-form-control" value={this.ageGroup} placeholder="AGE" onChange={this.onAgeGroupChange}></input>
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" value={this.avgDuration} placeholder="ESTIMATED PLAY TIME" onChange={this.onAvgDurationChange}></input>
+              <input class="app-form-control" value={this.avgDuration} placeholder="ESTIMATED PLAY TIME (MINUTES)" onChange={this.onAvgDurationChange}></input>
             </div>
             <div class="app-form-group">
               <input class="app-form-control" value={this.gameDescription} placeholder="DESCRIPTION" onChange={this.onGameDescriptionChange}></input>
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" value={this.releaseDate} placeholder="RELEASE DATE" onChange={this.onReleaseDateChange}></input>
+              <input class="app-form-control" value={this.releaseDate} placeholder="RELEASE DATE (YYYY-MM-DD)" onChange={this.onReleaseDateChange}></input>
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" value={this.gamePhoto} placeholder="PHOTO" onChange={this.onGamePhotoChange}></input>
+              <input class="app-form-control" value={this.gamePhoto} placeholder="PHOTO URL" onChange={this.onGamePhotoChange}></input>
             </div>
             <div class="app-form-group">
               <input class="app-form-control" value={this.gameRules} placeholder="RULES" onChange={this.onGameRulesChange}></input>
